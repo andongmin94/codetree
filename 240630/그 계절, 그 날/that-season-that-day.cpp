@@ -30,10 +30,10 @@ int main()
     
     if(JudgeDay(y, m, d))
     {
-        if (3 <= y && y <= 5) cout << "Spring";
-        if (6 <= y && y <= 8) cout << "Summer";
-        if (9 <= y && y <= 11) cout << "Fall";
-        if (12 == y || y <= 2) cout << "Winter";
+        if (3 <= m && m <= 5) cout << "Spring";
+        if (6 <= m && m <= 8) cout << "Summer";
+        if (9 <= m && m <= 11) cout << "Fall";
+        if (12 == m || m <= 2) cout << "Winter";
     }
     else
         cout << "-1";
