@@ -3,7 +3,7 @@
 using namespace std;
 
 int LastDayNumber(int y, int m) {
-    if(y % 4 == 0 && m == 2)
+    if(y % 4 == 0 && y % 100 != 0 && m == 2)
         return 29;
     if(m == 2)
         return 28;
