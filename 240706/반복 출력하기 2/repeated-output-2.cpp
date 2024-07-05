@@ -2,11 +2,11 @@
 
 using namespace std;
 
-int func(int n)
+void func(int n)
 {
     if (n > 0)
         cout << "HelloWorld\n";
-    else return 0;
+    else return;
     func(n-1);
 }
 
