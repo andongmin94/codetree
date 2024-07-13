@@ -18,6 +18,10 @@ int main()
     {
         if (i == s.length() - 1 && s[i] == s2[i]) cout << "Yes";
 
-        if (s[i] != s2[i]) cout << "No";
+        if (s.length() != s2.length() || s[i] != s2[i])
+        {
+            cout << "No";
+            break;
+        }
     }
 }
