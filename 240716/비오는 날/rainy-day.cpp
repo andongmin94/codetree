@@ -35,9 +35,9 @@ int main()
     string s = "9999-99-99";
     for (int i = 1; i < n; i++)
     {
-        if (rainy[i].sky == "Rain" && rainy->day < s)
+        if (rainy[i].sky == "Rain" && rainy[i].day < s)
         {
-            s = rainy->day;
+            s = rainy[i].day;
             idx = i;
         }
     }
