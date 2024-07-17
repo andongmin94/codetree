@@ -45,6 +45,7 @@ int main()
 
     sort(mans, mans + 5, cmpHeight);
     cout << "\nheight\n";
+    cout << fixed << setprecision(1);
     for (int i = 0; i < 5; i++)
         cout << mans[i].name << ' ' <<  mans[i].height << ' ' << mans[i].weight << "\n";
 }
