@@ -38,14 +38,14 @@ int main()
         cin >> mans[i].name >> mans[i].height >> mans[i].weight;
 
     sort(mans, mans + 5, cmpName);
-
+    cout << fixed << setprecision(1);
     cout << "name\n";
     for (int i = 0; i < 5; i++)
         cout << mans[i].name << ' ' <<  mans[i].height << ' ' << mans[i].weight << "\n";
 
     sort(mans, mans + 5, cmpHeight);
     cout << "\nheight\n";
-    cout << fixed << setprecision(1);
+    
     for (int i = 0; i < 5; i++)
         cout << mans[i].name << ' ' <<  mans[i].height << ' ' << mans[i].weight << "\n";
 }
